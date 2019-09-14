@@ -1,0 +1,27 @@
+.img{
+    width: 25%;
+    float: right;
+    height: 150px;
+}
+.main{
+    width: 960px;
+    margin: 80px auto;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
